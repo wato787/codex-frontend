@@ -14,7 +14,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { AlertCircle, Loader2 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Separator } from "@/components/ui/separator";
-import { loginSchema } from "@/app/schemas/loginSchema";
+import { loginSchema } from "@/schemas/login/loginSchema";
 
 export function LoginForm() {
   const [email, setEmail] = useState("");
